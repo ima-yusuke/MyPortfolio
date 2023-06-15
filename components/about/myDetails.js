@@ -11,13 +11,13 @@ function MyDetails() {
       <article className={styles.article}>
         {/* Using div to make dot on the border  */}
         <div></div>
-        
+
         <aside>
-          <h3> Hello! I'm Web Developer </h3>
+          <h3> Hello! I&apos;m Web Developer </h3>
           <p>
             I am Yusuke from Japan. I would like to help you from Service and
             Concept Design to UX/UI with user perspectives. I realized that the
-            world is is full of wonderful people, but it's too difficult to
+            world is is full of wonderful people, but it&apos;s too difficult to
             always believe it. I would love to make it easy by expressing your
             wonderful vision, and the world might be more colorful and powerful.
           </p>
