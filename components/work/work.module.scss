@@ -1,0 +1,129 @@
+@media screen and (min-width: 200px) {
+  .work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    row-gap: 3em;
+    column-gap: 5em;
+    background-color: rgb(249, 249, 249);
+    padding-top: 4em;
+
+    figure {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      row-gap: 1em;
+    }
+    :hover {
+      cursor: pointer;
+    }
+
+    img {
+      width: 20rem;
+      height: 14rem;
+    }
+    :hover {
+      transform: scale(1.1);
+      transition: all 0.3s;
+      opacity: 0.5;
+    }
+  }
+
+  // ========[modal.js]========
+
+  .modalTitle {
+    font-size: 20px;
+  }
+
+  .modalBody {
+    p,
+    a {
+      padding-left: 2em;
+      padding-right: 2em;
+    }
+
+    img {
+      width: 20rem;
+      height: 15rem;
+    }
+
+    .modalAside {
+      border-bottom: 1px solid rgb(222, 226, 230);
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 6rem;
+
+      p{
+        font-size: 12px;
+      }
+    }
+  }
+
+  .slide {
+    text-align: center;
+    line-height: 1;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+}
+
+// .work {
+//   display: flex;
+//   flex-wrap: wrap;
+//   justify-content: center;
+//   row-gap: 5em;
+//   column-gap: 5em;
+//   background-color: rgb(249,249,249);
+
+//   figure {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     row-gap: 1em;
+//   }:hover {
+//     cursor: pointer;
+//   }
+
+//   img {
+//     width: 22rem;
+//     height: 16rem;
+//   }:hover {
+//     transform: scale(1.1);
+//     transition: all 0.3s;
+//     opacity: 0.5;
+//   }
+// }
+
+// // ========[modal.js]========
+
+// .modalBody{
+//     p,a{
+//         padding-left: 2em;
+//         padding-right: 2em;
+//     }
+
+//     img{
+//         width: 25rem;
+//         height: 20rem;
+//     }
+
+//     .modalAside{
+//         border-bottom: 1px solid rgb(222,226,230);
+//         display: flex;
+//         flex-direction: column;
+//         justify-content: center;
+//         height: 5rem;
+//     }
+// }
+
+// .slide{
+//     text-align: center;
+//     line-height: 1;
+//     display: flex;
+//     align-items: flex-start;
+//     justify-content: center;
+// }

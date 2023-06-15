@@ -1,0 +1,5 @@
+[
+    {"icon":"fa fa-brands fa-linkedin","href":"https://www.linkedin.com/feed","iconName":"LinkedIn"},
+    {"icon":"fa fa-brands fa-github","href":"https://github.com/ima-yusuke","iconName":"GitHub"},
+    {"icon":"fa fa-solid fa-envelope","href":"#","iconName":"Email"}
+]

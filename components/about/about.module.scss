@@ -1,0 +1,330 @@
+@media screen and (min-width: 200px) {
+  // ============[myName.js]===================
+
+  .aboutParent {
+    overflow: hidden;
+  }
+
+  .aboutProfile {
+    background-color: rgb(234, 234, 234);
+    height: 200px;
+    display: flex;
+    align-items: center;
+
+    h3 {
+      font-size: 40px;
+      padding-left: 50px;
+      font-style: italic;
+      letter-spacing: 0.1em;
+    }
+  }
+
+  .myNameTop {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 1em;
+    position: relative;
+    padding-top: 3em;
+    padding-bottom: 7em;
+
+    img {
+      width: 20vh;
+      height: 20vh;
+      padding-top: 7em;
+      padding-bottom: 3em;
+      z-index: 2;
+    }
+
+    article {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+    }
+
+    p {
+      font-size: 30px;
+    }
+
+    h5 {
+      padding-top: 6em;
+    }
+  }
+
+  // ============[myDetail.js]===================
+
+  .profileBorder {
+    border-left: 3px solid black;
+    margin-left: 5%;
+    height: 100%;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    row-gap: 7vh;
+    background-color: rgb(249, 249, 249);
+
+    .article {
+      display: flex;
+
+      div {
+        position: absolute;
+        width: 3vh;
+        height: 3vh;
+        background-color: black;
+        border-radius: 50%;
+        margin: 0 calc(50% - 50vw);
+        margin-top: 1%;
+      }
+    }
+
+    article {
+      display: flex;
+
+      > aside {
+        display: flex;
+        flex-direction: column;
+        row-gap: 3vh;
+      }
+
+      aside {
+        width: 100%;
+      }
+    }
+
+    li {
+      display: flex;
+    }
+
+    h3 {
+      font-size: 20px;
+      font-style: italic;
+      letter-spacing: 0.1em;
+      padding-left: 80px;
+      width: 60%;
+      line-height: 1.8;
+    }
+
+    aside {
+      i {
+        color: black;
+        font-size: 20px;
+      }
+    }
+  }
+
+  .profileBorder p,
+  .profileBorder h4,
+  .profileBorder ul {
+    padding-left: 80px;
+    width: 60%;
+    line-height: 1.8;
+    font-size: 12px;
+  }
+
+  .icons {
+    display: flex;
+    column-gap: 3vh;
+    padding-left: 80px;
+  }
+
+  .skills {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2.5vh;
+  }
+
+  .education {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5em;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .myNameTop {
+    img {
+      padding-top: 5em;
+    }
+  }
+
+  .profileBorder {
+    height: 240vh;
+
+    .article {
+      div {
+        width: 2vh;
+        height: 2vh;
+        margin: 0 calc(50% - 48.9vw);
+        margin-top: 2%;
+      }
+    }
+
+    p,
+    h4,
+    li {
+      font-size: 20px;
+    }
+
+    h3 {
+      font-size: 30px;
+    }
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .myNameTop {
+    img {
+      padding-top: 7em;
+    }
+  }
+
+  .profileBorder {
+      .article {
+          div {
+            width: 3vh;
+            height: 3vh;
+            margin: 0 calc(50% - 48.4vw);
+            margin-top: 1.5%;
+          }
+      }
+
+  }
+
+
+}
+
+// ============[myName.js]===================
+// .education {
+//     display: flex;
+//     flex-direction: column;
+//     row-gap: 0.5em;
+//   }
+
+//   .aboutProfile {
+//     background-color: rgb(234, 234, 234);
+//     height: 300px;
+//     display: flex;
+//     align-items: center;
+
+//     h3 {
+//       font-size: 60px;
+//       padding-left: 150px;
+//       font-style: italic;
+//       letter-spacing: 0.1em;
+//     }
+//   }
+
+//   .myNameTop {
+//     display: flex;
+//     flex-direction: column;
+//     align-items: center;
+//     row-gap: 1em;
+//     position: relative;
+//     padding-top: 6em;
+//     padding-bottom: 15em;
+
+//     img {
+//       width: 20vh;
+//       height: 20vh;
+//       padding-top: 7em;
+//       padding-bottom: 3em;
+//       z-index: 2;
+//     }
+
+//     article {
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//       position: absolute;
+//     }
+
+//     p{
+//       font-size: 40px;
+//     }
+
+//     h5{
+//       padding-top: 8em;
+//     }
+//   }
+
+//   // ============[myDetail.js]===================
+
+//   .profileBorder {
+//     border-left: 3px solid black;
+//     margin-left: 5%;
+//     height: 100%;
+//     position: relative;
+//     display: flex;
+//     flex-direction: column;
+//     row-gap: 7vh;
+//     background-color: rgb(249,249,249);
+
+//     .article {
+//       display: flex;
+
+//       div {
+//         position: absolute;
+//         width: 3vh;
+//         height: 3vh;
+//         background-color: black;
+//         border-radius: 50%;
+//         margin: 0 calc(50% - 48.3vw);
+//         margin-top: 1%;
+//       }
+//     }
+
+//     article {
+//       display: flex;
+
+//       > aside {
+//         display: flex;
+//         flex-direction: column;
+//         row-gap: 3vh;
+//       }
+
+//       aside {
+//         width: 100%;
+//       }
+//     }
+
+//     li {
+//       display: flex;
+//     }
+
+//     h3 {
+//       font-size: 30px;
+//       font-style: italic;
+//       letter-spacing: 0.1em;
+//       padding-left: 150px;
+//       width: 60%;
+//       line-height: 1.8;
+//     }
+
+//     aside {
+//       i {
+//         color: black;
+//         font-size: 20px;
+//       }
+//     }
+//   }
+
+//   .profileBorder p,
+//   .profileBorder h4,
+//   .profileBorder ul {
+//     padding-left: 150px;
+//     width: 60%;
+//     line-height: 1.8;
+//   }
+
+//   .icons {
+//     display: flex;
+//     column-gap: 3vh;
+//     padding-left: 150px;
+//   }
+
+//   .skills {
+//     display: flex;
+//     flex-direction: column;
+//     row-gap: 2.5vh;
+//   }

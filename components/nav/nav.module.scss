@@ -1,0 +1,92 @@
+// ==============[nav.js]======================
+.navBar {
+  display: flex;
+  justify-content: right;
+  padding-right: 1%;
+
+  i {
+    color: black;
+    font-size: 40px;
+  }
+  :hover {
+    cursor: pointer;
+  }
+}
+
+.navBarWhite {
+  display: flex;
+  justify-content: right;
+  padding-right: 1%;
+
+  i {
+    color: whitesmoke;
+    font-size: 40px;
+  }
+  :hover {
+    cursor: pointer;
+  }
+}
+
+// ==============[navPage.js]======================
+
+@media screen and (min-width: 200px) {
+  .navpage {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    height: 500px;
+    margin: 50px;
+    margin-top: 5em;
+
+    .navmenu {
+      padding-left: 3em;
+
+      p {
+        color: whitesmoke;
+        font-size: 30px;
+      }
+      p:hover {
+        cursor: pointer;
+      }
+
+      ul {
+        display: flex;
+        flex-direction: column;
+        row-gap: 4em;
+      }
+    }
+
+    button {
+      width: 30px;
+      height: 30px;
+      margin-bottom: 45%;
+    }
+    :hover {
+      cursor: pointer;
+    }
+  }
+
+  .navmenu {
+    padding-top: 6em;
+    padding-left: 6em;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  .navmenu {
+    padding-left: 3em;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .navpage {
+    height: 600px;
+    margin: 70px;
+    margin-top: 7em;
+
+    .navmenu {
+      padding-left: 6em;
+      padding-top: 9em;
+    }
+  }
+}
