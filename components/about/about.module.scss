@@ -5,6 +5,8 @@
     overflow: hidden;
   }
 
+  
+
   .aboutProfile {
     background-color: rgb(234, 234, 234);
     height: 200px;
@@ -58,6 +60,7 @@
     border-left: 3px solid black;
     margin-left: 5%;
     height: 100%;
+    padding-bottom: 10%;
     position: relative;
     display: flex;
     flex-direction: column;
