@@ -1,8 +1,8 @@
 [
-    {"school":"Kansai Gaikokugo University","content":"BACHELOR OF ARTS (B.A.) IN ENGLISH","date":"April 2015 - March 2019"},
-    {"school":"Queen's University","content":"Language","date":"May 2016 - August 2016"},
-    {"school":"Tamwood Language School","content":"Language","date":"July 2022 - August 2022"},
-    {"school":"Tamwood Career","content":"Web development ","date":"August 2022 - January 2023"}
+    {"school":"Kansai Gaikokugo University","content":"BACHELOR OF ARTS (B.A.) IN ENGLISH","date":"April 2015 - March 2019","url":"https://www.kansaigaidai.ac.jp/"},
+    {"school":"Queen's University","content":"Language","date":"May 2016 - August 2016","url":"https://www.queensu.ca/"},
+    {"school":"Tamwood Language School","content":"Language","date":"July 2022 - August 2022","url":"https://tamwood.com/"},
+    {"school":"Tamwood Career","content":"Web development (Diploma) ","date":"August 2022 - January 2023","url":"https://tamwood.com/"}
 ]
 
 

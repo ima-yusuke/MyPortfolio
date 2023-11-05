@@ -3,8 +3,19 @@ import styles from "./about.module.scss";
 import Image from "next/image";
 import "font-awesome/css/font-awesome.min.css";
 import profilePic from "../../public/pic-01.jpg";
+import { useState } from "react";
 
 function MyName() {
+  const TIMEOUT = 1500;
+
+  const [addClass, setAddClass] = useState(false);
+
+  setInterval(() => {
+    setAddClass(true);
+    setTimeout(() => {
+      setAddClass(false);
+    }, TIMEOUT);
+  }, TIMEOUT * 2);
   return (
     <>
       <section className={styles.myNameTop}>
@@ -24,7 +35,14 @@ function MyName() {
 
         <p>Yusuke Imai</p>
         <p>Frontend Developer</p>
-        <h5>Scroll</h5>
+        <h5 className={addClass ? `${styles.title} ${styles.visible}` :styles.title}>
+          <span>S</span>
+          <span>C</span>
+          <span>R</span>
+          <span>O</span>
+          <span>L</span>
+          <span>L</span>
+        </h5>
         <i class="fa fa-solid fa-chevron-down"></i>
       </section>
 

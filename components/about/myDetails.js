@@ -41,6 +41,17 @@ function MyDetails() {
         </aside>
       </article>
 
+      <article className={styles.article}>
+        <div></div>
+        <aside>
+          <h3>Resume</h3>
+          <article>
+            <p><a href="./resume.pdf" download="履歴書">Resume</a></p>
+            <p className={styles.resume}><a href="./job-history.pdf" download="職務経歴書">Job History</a></p>
+          </article>
+        </aside>
+      </article>
+
       {/* Displaying education informations from education.json */}
       <article className={styles.article}>
         <div></div>
@@ -49,7 +60,7 @@ function MyDetails() {
           {educations.map((education) => {
             return (
               <article key={education.school} className={styles.education}>
-                <h4>[{education.school}]</h4>
+                <h4><a href={education.url}>[{education.school}]</a></h4>
                 <h4>{education.content}</h4>
                 <h4>{education.date}</h4>
               </article>

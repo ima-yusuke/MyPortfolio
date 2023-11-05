@@ -1,7 +1,7 @@
 import ParticleLoad from "../components/particle/particleLoad";
 import styles from "../components/load/load.module.scss";
 import { useRouter } from "next/router";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 
 function Load(props) {
   console.log(props.page);
@@ -27,7 +27,7 @@ function Load(props) {
 
   return (
     <>
-       {/* Background animation  */}
+      {/* Background animation  */}
       <ParticleLoad></ParticleLoad>
 
       <div id={styles.load}>
