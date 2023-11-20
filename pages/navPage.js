@@ -7,6 +7,7 @@ function NavPage(props) {
   const page = props.page;
   const setPage = props.setPage;
 
+  // When user clicked the "X" button, back to previous page
   const backPreviousPage = () => {
     if (page == "/") {
       router.push("/");
@@ -19,8 +20,8 @@ function NavPage(props) {
     }
   };
 
+  // Go to following page 
   function goToLoadPage(e) {
-    console.log(e.target.innerText);
     if (e.target.innerText == "Home") {
       setPage("/");
     } else if (e.target.innerText == "About") {

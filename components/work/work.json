@@ -1,5 +1,6 @@
 [
-    {"id":1,"src":"pic-02.png","title":"Shopping Cart","gallry":["pic-02.png","pic-03.png","pic-04.png"],"text":"We created a shopping website for our group. I was in charge of displaying products and adding products to the shopping cart.","skills":["Vue.js","JavaScript"]},
+    {"id":0,"src":"pic-00.png","title":"面接質問事項","gallry":["pic-02.png","pic-03.png","pic-04.png"],"text":"This application was developed in collaboration with my classmates. The theme is a shopping site, with 'Login', 'Add to Cart', 'Perchase', 'Search ', and more.","skills":["Vue.js","JavaScript"]},
+    {"id":1,"src":"pic-02.png","title":"Shopping Cart","gallry":["pic-02.png","pic-03.png","pic-04.png"],"text":"This application was developed in collaboration with my classmates. The theme is a shopping site, with 'Login', 'Add to Cart', 'Perchase', 'Search ', and more.","skills":["Vue.js","JavaScript"]},
     {"id":2,"src":"pic-05.png","title":"Sudoku","gallry":["pic-05.png","pic-06.png","pic-07.png"],
     "text":"We created a group Sudoku game. We produced funcion to check if the numbers were duplicated vertically or horizontally or in a box. I was in charge of checking the vertical among them.","skills":["JavaScript","jQuery"]},
     {"id":3,"src":"pic-08.png","title":"Restaurant site","gallry":["pic-08.png","pic-09.png","pic-10.png"],

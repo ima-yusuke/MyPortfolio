@@ -2,12 +2,13 @@ import ParticleLoad from "../components/particle/particleLoad";
 import styles from "../components/load/load.module.scss";
 import { useRouter } from "next/router";
 import { useEffect, useState } from "react";
+import { setConfig } from "next/config";
 
 function Load(props) {
-  console.log(props.page);
   const router = useRouter();
   const page = props.page;
 
+  // Go to following page
   function goToNextPage() {
     if (page == "/") {
       router.push("/");
@@ -20,6 +21,7 @@ function Load(props) {
     }
   }
 
+  // After 2 seconds, goToNextPage function will be executed and go to next page
   useEffect(() => {
     const interval = setInterval(goToNextPage, 2000);
     return () => clearInterval(interval);
