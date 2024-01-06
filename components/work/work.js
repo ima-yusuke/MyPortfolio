@@ -35,7 +35,8 @@ function Work() {
         {workArray.map((val, idx) => {
           return (
             <figure key={idx}>
-              {val.id==0?<a href="https://varinterview.vercel.app/" target="blank"><img src={`./${val.src}`} onClick={handleShow} id={idx}></img></a>:<img src={`./${val.src}`} onClick={handleShow} id={idx}></img>}
+              {val.id==0?<a href="https://varinterview.vercel.app/" target="blank"><img src={`./${val.src}`} onClick={handleShow} id={idx}></img></a>
+              :<img src={`./${val.src}`} onClick={handleShow} id={idx}></img>}
               <p key={idx}>{val.title}</p>
             </figure>
           );

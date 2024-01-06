@@ -95,6 +95,12 @@
       }
     }
 
+    .kntPic{
+      width: 65vh;
+      height: 50vh;
+      padding-left: 80px;
+    }
+
     li {
       display: flex;
     }
@@ -157,7 +163,7 @@
   }
 
   .profileBorder {
-    height: 240vh;
+    height: 320vh;
 
     .article {
       div {

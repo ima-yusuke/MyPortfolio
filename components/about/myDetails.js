@@ -4,6 +4,9 @@ import skills from "./skills.json";
 import hobbies from "./hobby.json";
 import styles from "./about.module.scss";
 import "font-awesome/css/font-awesome.min.css";
+import Image from "next/image";
+import KntPic from "../../public/knt.jpeg";
+
 
 function MyDetails() {
   return (
@@ -48,6 +51,18 @@ function MyDetails() {
           <article>
             <p><a href="./resume.pdf" download="履歴書">Resume</a></p>
             <p className={styles.resume}><a href="./job-history.pdf" download="職務経歴書">Job History</a></p>
+          </article>
+        </aside>
+      </article>
+
+      <article className={styles.article}>
+        <div></div>
+        <aside>
+          <h3>Work experience</h3>
+          <article className={styles.education}>
+            <h4>[KNT]</h4>
+            <h4>April 2019 - August 2023</h4>
+            <Image src={KntPic} alt="kntPic" className={styles.kntPic}/>
           </article>
         </aside>
       </article>
